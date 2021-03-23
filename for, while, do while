@@ -1,0 +1,23 @@
+// for, while, do while
+/for (선언; 조건; 증감)
+for (int i=1; i<=10; 1++)
+{
+     print("Hello World %d\n", i);
+}
+
+return 0;
+
+/while
+int i=1;      선언;
+while(i<=10)      조건
+{
+    printf("Hello World %d\n", i++);      증감;
+    /i++;
+}
+return 0;
+
+/do while
+int i=1;      선언;
+do{
+   printf("Hello World %d\n", i++);     증감;
+} while (i <=10);     조건;
