@@ -31,3 +31,21 @@ int main(void){
     }
     return 0;
 }
+
+do while문
+
+#include <stdio.h>
+
+int main(void){
+    int a, num=1;
+    printf("몇단 : ");
+    scanf("%d", &a);
+
+    do
+    {
+        printf("%d x %d = %d\n", a, num, a*num);
+        ++num;
+    } while(num<10);
+    
+    return 0;
+}
