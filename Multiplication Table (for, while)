@@ -1,0 +1,33 @@
+for문
+
+#include <stdio.h>
+
+int main(void){
+    int a;
+    printf("몇 단 : ");
+    scanf("%d", &a);
+
+        for(int j=1; j<=9; ++j)
+        {
+            printf("%d x %d = %d\n", a, j, a*j);
+        }
+
+    return 0;
+}
+
+while문
+
+#include <stdio.h>
+
+int main(void){
+    int a=0, num=1;
+    printf("몇 단 : ");
+    scanf("%d", &a);
+
+    while(num<=9)
+    {
+        printf("%d x %d = %d\n", a, num, a*num);
+        ++num;
+    }
+    return 0;
+}
